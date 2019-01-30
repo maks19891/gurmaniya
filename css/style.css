@@ -1,0 +1,353 @@
+html,
+body {
+    margin: 0;
+}
+
+p,
+h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+header {
+    width: 1120px;
+    padding-top: 158px;
+    padding-bottom: 115px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo {
+    width: 382px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 1120px;
+    background: #f8f8f8;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 83px;
+    padding: 43px 0;
+}
+
+.nav-items {
+    width: 950px;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 87px;
+    margin-right: 90px;
+}
+
+.nav-links {
+    width: 534px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    font-family: "Josefin Sans", sans;
+    font-weight: 300;
+}
+
+.nav-search {
+    width: 162px;
+    margin-left: auto;
+}
+
+.nav-search ::placeholder {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "JosefinSans";
+    opacity: 0.8;
+}
+
+.bananas {
+    background-color: #f8f8f8;
+    width: 1120px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 55px;
+    padding-left: 93px;
+    box-sizing: border-box;
+    margin-bottom: 83px;
+}
+
+.bananas-header {
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #921026;
+}
+
+.bananas-description {
+    width: 360px;
+    font-family: "Josefin Sans", sans;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    margin-bottom: 10px;
+}
+
+.bananas-logo {
+    width: 252px;
+}
+
+.bananas-button {
+    padding-top: 0;
+    width: 105px;
+    border: 1.0px solid #c2c2c2;
+    font-family: "Josefin Sans", sans;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.dishes {
+    background-color: #ffffff;
+    width: 1120px;
+    margin: auto;
+    padding: 50px 40px 45px 53px;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 83px;
+}
+
+.dishes-wrapper {
+    width: 1023px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish {
+    width: 315px;
+}
+
+.dish-image {
+    width: 313px;
+    margin-bottom: 5px;
+}
+
+.dish-description {
+    margin-top: 0;
+    font-family: "Josefin Sans", sans;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.dish-descriptiton-elements {
+    width: 145px;
+    font-family: 'Open Sans', sans;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.clock-icon {
+    width: 15px;
+}
+
+.dish-paragraph {
+    padding: 0;
+    margin: 0;
+    margin-right: 3px;
+}
+
+.line {
+    margin-right: 4px;
+    width: 1px;
+}
+
+.comment {
+    width: 28px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4px;
+}
+
+.comment-icon {
+    width: 13px;
+    margin-right: 2px;
+    align-self: center;
+}
+
+.view {
+    width: 49px;
+    display: flex;
+}
+
+.view-icon {
+    width: 13px;
+    margin-right: 2px;
+    align-self: center;
+}
+
+.cinnamon {
+    width: 1120px;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 520px 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "cinnamon-image cinnamon-recipe";
+    padding-bottom: 0;
+    margin-bottom: 137px;
+}
+
+.cinnamon-image {
+    grid-area: cinnamon-image;
+    background: url('cinnamon1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cinnamon-recipe {
+    grid-area: cinnamon-recipe;
+    padding-top: 40px;
+    padding-left: 42px;
+    padding-bottom: 22px;
+}
+
+.cinnamon-recipe-header {
+    width: 492px;
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #055555;
+    margin-bottom: 13px;
+}
+
+.cinnamon-recipe-bar {
+    width: 480px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cinnamon-recipe-elements {
+    width: 153px;
+    font-family: 'Open Sans', sans;
+    font-size: 16px;
+    align-self: flex-start;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+}
+
+.cinnamon-timing {
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.cinnamon-clock-icon {
+    width: 14px;
+    margin-right: 2px;
+}
+
+.cinnamon-rectangles {
+    padding: 0;
+    width: 29px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.rectangle {
+    width: 5px;
+}
+
+.recipe-difficulty {
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cinnamon-recipe-button {
+    width: 105px;
+    border: 1.0px solid #c2c2c2;
+    font-family: "Josefin Sans", sans;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 10px 9px;
+}
+
+.cinnamon-recipe-description {
+    width: 480px;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    color: #000000;
+}
+
+.cinnamon-recipe-instruction {
+    padding: 0;
+    font-family: "Josefin Sans", sans;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.cinnamon-recipe-directions-header {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+.cinnamon-recipe-direction {
+    margin-top: 19px;
+    font-family: "Josefin Sans", sans;
+    font-weight: 400;
+}
