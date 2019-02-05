@@ -238,7 +238,7 @@ nav {
 
 .cinnamon-image {
     grid-area: cinnamon-image;
-    background: url('cinnamon1.png');
+    background: url('../img/cinnamon1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -350,4 +350,236 @@ nav {
     margin-top: 19px;
     font-family: "Josefin Sans", sans;
     font-weight: 400;
+}
+
+.wrapper {
+    width: 1120px;
+    margin: 0 auto 150px;
+    display: flex;
+}
+
+.not-found {
+    margin-right: 84px;
+    width: 518px;
+    padding-top: 23px;
+}
+
+.not-found-header {
+    font-family: "Josefin Sans", sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    margin-left: 44px;
+    margin-bottom: 11px;
+}
+
+.not-found-styled-line {
+    width: 440px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+    margin: 0 45px 145px 33px;
+}
+
+.sorry {
+    width: 130px;
+    margin: 0 auto 108px;
+}
+
+.sorry-header {
+    font-family: "Josefin Sans", sans;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #000000;
+    margin: 0 189 4px 199px;
+    text-align: center;
+}
+
+.sorry-text {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #a9a9a9;
+    margin-bottom: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sorry-img {
+    width: 31px;
+    margin-left: 55px;
+}
+
+.not-found-button {
+    width: 105px;
+    border: 1px solid #c2c2c2;
+    margin-right: auto;
+    padding: 9px 38px 9px 37px;
+    font-family: "Josefin Sans", sans;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 52px;
+}
+
+.author {
+    width: 518px;
+    padding-top: 23px;
+    background: #ffffff;
+}
+
+.author-header {
+    font-family: "Josefin Sans", sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    margin-left: 44px;
+    margin-bottom: 11px;
+}
+
+.author-styled-line {
+    width: 440px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+    margin: 0 auto 24px;
+}
+
+.container {
+    display: flex;
+}
+
+.author-image {
+    width: 128px;
+    margin-left: 32px;
+    margin-right: 20px;
+}
+
+.author-name {
+    font-family: "Josefin Sans", sans;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.author-country {
+    font-family: "Josefin Sans", sans;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.social-networks-icons {
+    width: 90px;
+    opacity: 0.5;
+    margin-bottom: 18px;
+}
+
+.author-about-styled-line {
+    width: 291px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+}
+
+.about-lemon {
+    margin-left: 181px;
+    margin-bottom: 32px;
+    font-family: "Josefin Sans", sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+}
+
+.about-lemon-text {
+    width: 288px;
+    margin-left: 181px;
+    font-size: 14px;
+    font-family: "Josefin Sans", sans;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.025em;
+    margin-bottom: 22px;
+}
+
+.signature {
+    width: 163px;
+    margin-left: 314px;
+    margin-bottom: 33px;
+}
+
+footer {
+    width: 1120px;
+    opacity: 0.8;
+    background-color: #000000;
+    margin: auto;
+    padding: 72px 54px 55px 86px;
+    box-sizing: border-box;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer-logo {
+    width: 87px;
+}
+
+.footer-links {
+    width: 401px;
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links a {
+    font-family: "Josefin Sans", sans;
+    color: #fefefe;
+}
+
+.footer-rights {
+    text-transform: uppercase;
+    display: flex;
+}
+
+.footer-rights-text {
+    opacity: 0.5;
+    font-family: "Josefin Sans", sans;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #fefefe;
+    display: flex;
+}
+
+.footer-rights-copyright {
+    width: 12px;
+    margin-right: 4px;
+}
+
+.footer-icons {
+    width: 99px;
+    margin-left: auto;
 }
